@@ -1,0 +1,18 @@
+nav.navbar {
+  height: 95px;
+  margin-bottom: 0px;
+  background-color: #094362; }
+
+#logo {
+  height: auto;
+  width: 190px; }
+
+#landingWrapper {
+  margin-top: 95px; }
+
+#featureDiv {
+  border: 2px red solid;
+  width: 100%;
+  height: 700px; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAibWFpbi5jc3MiLAoJInNvdXJjZXMiOiBbCgkJIi4uLy4uL3NyYy9hc3NldHMvbWFpbi5zY3NzIgoJXSwKCSJzb3VyY2VzQ29udGVudCI6IFtdLAoJIm1hcHBpbmdzIjogIkFBT0csR0FBRyxBQUFBLE9BQU8sQ0FBRjtFQUNWLE1BQU0sRUFBRSxJQUFLO0VBQ2IsYUFBYSxFQUFFLEdBQUk7RUFDbkIsZ0JBQWdCLEVBVFAsT0FBTyxHQU1MOztBQU1aLEtBQUssQ0FBQztFQUNMLE1BQU0sRUFBRSxJQUFLO0VBQ2IsS0FBSyxFQUFFLEtBQ1AsR0FITTs7QUFNUCxlQUFlLENBQUM7RUFDZixVQUFVLEVBQUUsSUFBSyxHQUREOztBQUlqQixXQUFXLENBQUM7RUFDWCxNQUFNLEVBQUUsYUFBYztFQUN0QixLQUFLLEVBQUUsSUFBSztFQUNaLE1BQU0sRUFBRSxLQUFNLEdBSEYiLAoJIm5hbWVzIjogW10KfQ== */

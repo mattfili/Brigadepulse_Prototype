@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     autoprefixer: {
       main: {
         options: ['>1% in US'],
-        src: 'public/assets/main.css'
+        src: 'public/assets/css/**.css'
       }
     },
     babel: {
@@ -67,6 +67,7 @@ module.exports = function(grunt) {
             src: [
               '**',
               '!**/*.jade',
+              '**/*.png',
               '!**/*.scss',
               '!**/*.js',
             ],
@@ -165,7 +166,7 @@ module.exports = function(grunt) {
         },
 
         files: [
-          'public/assets/main.css',
+          'public/assets/*.css',
           'public/js/**/*.js',
           'public/**/*.html'
         ]
@@ -190,7 +191,6 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'clean',
     'copy',
-    'copy:cssmap',
     'babel:prod',
     'bower_concat',
     'jade:prod',
@@ -202,7 +202,6 @@ module.exports = function(grunt) {
   grunt.registerTask('build-dev', [
     'clean',
     'copy',
-    'copy:cssmap',
     'babel:dev',
     'bower_concat',
     'jade:dev',

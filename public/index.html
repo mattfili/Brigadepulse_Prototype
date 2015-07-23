@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="BrigadePulse">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D3 Tester</title>
+    <link rel="stylesheet" href="lib/build.css">
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a ui-sref="start" class="navbar-link navbar-right"><img id="logo" src="assets/images/logo.png"></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ui-view></ui-view>
+  </body>
+  <script src="lib/build.js"></script>
+  <script src="js/config/main.config.js"></script>
+</html>

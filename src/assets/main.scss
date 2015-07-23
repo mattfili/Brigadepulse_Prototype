@@ -1,0 +1,28 @@
+$CFAred: #A20A33;
+$CFAblue: #094362;
+$CFAgrey: #414441;
+$CFApurple: #604B95;
+
+//index.html
+
+nav.navbar {
+	height: 95px;
+	margin-bottom: 0px;
+	background-color: $CFAblue;
+}
+	
+#logo {
+	height: auto;
+	width: 190px
+}
+
+//Landing Template
+#landingWrapper {
+	margin-top: 95px;
+}
+
+#featureDiv {
+	border: 2px red solid;
+	width: 100%;
+	height: 700px;
+}
