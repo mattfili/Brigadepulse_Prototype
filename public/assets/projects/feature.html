@@ -1,0 +1,34 @@
+
+<div id="featureDiv">
+  <div id="carosuelBox">
+    <carousel interval="Main.speed" no-wrap="noWrapSlides">
+      <slide ng-repeat="slide in Main.slides" active="slide.active">
+        <div class="imageDiv"><img id="carouselImage" ng-src="{{slide.image}}"/>
+          <div ng-repeat="heads in Main.headers" ng-hide="!Main.slides.active" class="carousel-caption">
+            <h1>{{heads}}</h1><a ui-sref="#">
+              <button type="button" class="btn btn-success">View Project</button></a>
+            <div class="techstack">
+              <ul class="list-group">
+                <li class="list-group-item-heading">
+                  <p>We're Looking For:</p>
+                </li>
+                <li class="list-group">
+                  <p>Front-end JS devs</p>
+                </li>
+                <li class="list-group">
+                  <p>CSS ninjas</p>
+                </li>
+                <li class="list-group">
+                  <p>UX and Design </p>
+                </li>
+                <li class="list-group">
+                  <p>Project Manager </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+</div>
