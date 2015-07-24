@@ -256,3 +256,36 @@ nav.navbar {
 			margin: auto;
 		}
 }
+
+//Global
+
+#global {
+	padding-left: 30px;
+	padding-top: 70px;
+	height: 490px;
+}
+
+.jumbotron {
+	margin: auto;
+	padding: 20px;
+	height: 350px;;
+	width: 1200px;
+}
+
+.half {
+	text-align: left;
+	max-width: 600px;
+	padding: 10px;
+}
+
+.otherHalf {
+	@include red-border;
+	max-width: 600px;
+	padding: 10px;
+	position: relative;
+	left: 50px;
+	top: 10px;
+
+
+
+}
