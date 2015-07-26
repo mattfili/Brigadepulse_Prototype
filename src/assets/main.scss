@@ -117,7 +117,7 @@ nav.navbar {
 }
 
 .techstack {
-	position: absolute;
+	position: absolute;  
 	bottom: 50;
 	right: -10px;
 	text-align: right;
@@ -253,8 +253,18 @@ nav.navbar {
 		img {
 			height: 185px;
 			width: auto;
-			margin: auto;
+			position: relative;
+			top: 50%;
+			left: 25%;
 		}
+}
+
+.project-box {
+	padding: 10px;
+
+	.caption {
+		text-align: center;
+	}
 }
 
 //Global
@@ -286,6 +296,39 @@ nav.navbar {
 	left: 50px;
 	top: 10px;
 
-
-
 }
+
+// FULL PAGE INFO
+
+#fullPageWrapper {
+	margin-top: 40px;
+
+	h1 h2 {
+		text-align: center
+	}
+}
+
+.media-body#detailWrapperz {
+	height: 700px;
+
+		:nth-child(3n) {
+			padding-top: 0px;
+			margin-bottom: 0;
+		}
+
+		:nth-child(4n) {
+			padding-top: 0px;
+			margin-bottom: 0;
+		}
+
+		:nth-child(5n) {
+			padding-top: 0px;
+			margin-bottom: 0;
+			position: relative;
+		}
+}
+
+
+
+
+

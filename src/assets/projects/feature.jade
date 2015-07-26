@@ -4,9 +4,9 @@
 			slide(ng-repeat="slide in Main.slides" active="slide.active")
 				.imageDiv
 					img#carouselImage(ng-src='{{slide.image}}')
-					.carousel-caption(ng-repeat='heads in Main.headers' ng-hide="!Main.slides.active")
-						h1 {{heads}}
-						a(ui-sref="#"): button(type="button").btn.btn-success View Project
+					.carousel-caption
+						h1 Locally farmed Produce to Underserved Communities powered by demand mapping
+						a(ui-sref="fullpage.info"): button(type="button").btn.btn-success View Project
 						.techstack
 							ul.list-group
 								li.list-group-item-heading: p We're Looking For:
